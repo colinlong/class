@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+}
+
+
+.top {
+	padding:20px;
+	background-color: #13803c;
+	text-align; left;
+	line-height: 2;
+	text-align: right;
+
+}
+
+.main{
+	padding:40px 10px 20px 10px;
+	background-color: white;
+
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+	font-size:12px;
+}
+
+
+h1{
+	font-size:26px;
+	color: #13803c;
+	padding: 10px;
+}
+
+h2{
+	font-size:18px;
+	padding: 10px;
+}
+
+
+h3{
+	color: white;
+	font-size:10px;
+	text-align: center;
+	font-weight: normal;
+	padding: 10px;
+}
+
+p{
+	font-size:12px;
+}
+
+
+li{
+	color:black;
+}

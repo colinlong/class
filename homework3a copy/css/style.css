@@ -1,0 +1,132 @@
+*, body{
+	margin:0px;
+	padding:0px;
+}
+
+.wrapper{
+	max-width:1000px;		/* <--this should be matching up with what your width is */
+	display: block;
+	margin:0 auto;
+	width:96%;
+	padding: 0px 2%;
+}
+
+h1{
+	color:#13803c;
+	font-family: arial;
+	padding: 10px 0px;
+}
+
+h2{
+	font-family: arial;
+	padding: 5px 0px;
+}
+
+h3{
+	font-family: arial;
+}
+
+p{
+	font-family: arial;
+	padding: 5px 0px;
+}
+
+a{
+	color:#000;
+	font-family: arial;
+}
+
+ul, ol{
+	margin-left: 30px;
+	list-style: none;
+}
+
+ul li{
+	list-style:none;
+	display:inline-block;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* HEADER SECTION */
+header{
+	background-color:#13803c;
+	-webkit-box-shadow: inset 13px 10px 56px 63px rgba(0,0,0,0.75);
+	moz-box-shadow: inset 13px 10px 56px 63px rgba(0,0,0,0.75);
+	box-shadow: inset 13px 10px 56px 63px rgba(0,0,0,0.75);
+}
+
+header img{
+	position: relative;
+	float:left;
+}
+
+header ul{
+	float:right;
+	list-style: none;
+	display: inline-block;
+}
+
+header a{
+	color:#fff;
+	text-decoration: none;
+}
+
+header .logo{
+	float:left;
+	width:60%;
+}
+
+header .logo img{
+	display: block;
+	margin:0 auto;
+}
+
+
+/* class CONTENT SECTION */
+.content{
+	padding: 15px;
+	background-image: url('../images/pitchersinterior.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.content .main-content{
+	float:left;
+	width:60%;
+	margin-right:5%;
+}
+
+.content img{
+	float:right;
+	width:30%;
+}
+
+
+/* FOOTER */
+footer{
+	background-color: #13803c;
+	padding: 15px 0px;
+}
+
+footer p{
+	color:#fff;
+	text-align: center;
+}
+
+
+/*
+NOTES
+
+
+#id{	this would target id}
+
+.class{	this would target class}
+
+
+	padding: 10px 0px; THIS WOULD BE TOP/BOTTOM, LEFT/RIGHT
+
+*/
