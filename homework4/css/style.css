@@ -100,15 +100,27 @@ box-shadow: 5px 5px 0px 1px rgba(0,0,0,0.66);
 .content{
 	max-width:96%;
 	margin-left:5%;
-	margin-right:5%;
+
 }
 
 .content img{
+	position:relative;
 	float:right;
 	width:25%;
+
+	/*float:right;
+	display:block;
+	position:absolute;
+	width:25%;
 	padding-bottom:30px;
+	padding:5px;
+	margin: 0px 0px 0px 700px; */
 }
 
+.content .main-content{
+	margin-right:30%;
+	float:left;
+}
 
 
 /*---- FOOTER ----- */
@@ -132,7 +144,7 @@ footer p{
 }
 
 footer img{
-	margin:5px;
+	margin:-50px 5px 5px 5px;
 	padding:5px;
 	float:right;
 	display:inline-block;

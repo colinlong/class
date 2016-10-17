@@ -1,0 +1,177 @@
+*, body{
+	padding:0px;
+	margin:0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+}
+
+.wrapper{
+	max-width: 1000px;
+	display: block;
+	margin:0px auto;
+	width:96%;
+	padding:0px 2%;
+}
+
+h1{
+	font-size:48px;
+	line-height:1.5;
+}
+
+h2{
+
+}
+h3{
+
+}
+
+img{
+}
+
+
+
+
+
+
+/*------------- HEADER ------------- */
+
+header{
+	background:#F2F2F2;
+}
+
+header .left img{
+	float:left;
+	display:block;
+	max-width:300px;
+	margin-left:2%;
+}
+
+header .right{
+	text-align:center;
+	display:block;
+	padding:175px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+/*------------- first-section / BIO ------------- */
+.content .wrapper .first-section{
+	text-align:center;
+	margin:40px 2%;
+}
+.content .wrapper .first-section h1{
+	font-size:40px;
+}
+.content .wrapper .first-section p{
+	line-height:2;
+	margin-bottom:40px;
+}
+.content .wrapper .first-section a{
+	color:#fff;
+	background-color:#FE4545;
+	margin:20px;
+	padding:20px 60px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.content .wrapper .first-section a:hover{
+	background-color:#000;
+}
+
+
+/*------------- second-section / Portfolio ------------- */
+.content .second-section{
+	background:#F2F2F2;
+	text-align:center;
+}
+.second-section .block{
+	width:30%;
+	border:1px solid black;
+	margin:1.5%;
+	float:left;
+}
+.second-section .block img{
+	width:100%;
+}
+.second-section h1{
+	padding:30px;
+}
+.second-section .row{
+	display:inline-block;
+}
+
+@media screen and (max-width: 800px) {
+	.second-section .block{
+		width:45%;
+		margin:2%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.second-section .block{
+		width:100%;
+		margin:0%;
+	}
+}
+
+
+
+
+
+
+
+/*------------- third-section / Skillz ------------- */
+.content .third-section{
+	background:#222222;
+	color:#fff;
+}
+.content .third-section .wrapper{
+	padding:80px 0px;
+}
+.third-section h1{
+	text-align:center;
+}
+.third-section h2{
+	padding:10px 0px;
+}
+.third-section .left{
+	display:block;
+	float:left;
+	margin-left:10%;
+}
+.third-section .right{
+	display:block;
+	float:left;
+	margin-left:30%;
+}
+
+.third-section ul li{
+	color:#888888;
+	margin:0 30px;
+	line-height:1.5;
+}
+
+
+/*------------- fourth-section / img ------------- */
+.fourth-section{
+	background-color:#F2F2F2;
+}
+.fourth-section img{
+	margin:auto;
+	display:block;
+	width:100%;
+}
+
+
+/*------------- footer ------------- */
+footer{
+	background-color:#222222;
+	color:white;
+}
+

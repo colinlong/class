@@ -1,0 +1,139 @@
+*, body{
+	padding:0px;
+	margin:0px;
+	background-color:lightcyan;
+	font-family:arial;
+}
+.wrapper{
+	max-width: 1000px;
+	display: block;
+	margin:0px auto;
+	width:96%;
+	padding:0px 2%;
+	position:relative;
+}
+
+
+ul li{
+	list-style:none;
+}
+
+
+/*----------- HEADER -----------*/
+header{
+	background-color:#cdcdcd;
+}
+header p{
+	text-align:right;
+	right:40px;
+	margin:1px;
+}
+header .logo{
+	background-color:#2AB27B;
+	margin:0px 10px;
+}
+header .logo img{
+	max-width:125px;
+	padding:10px 0px;
+	width:100%;
+	float:left;
+	display:block;
+}
+header .nav{
+	float:right;
+	margin:0 auto;
+	padding:110px 0px 0px 0px;
+}
+header .nav a{
+	margin:10px 15px 0px 15px;
+	border:1px solid black;
+}
+
+
+@media only screen and (min-width: 600px) {
+	ul li{
+		display:inline-block;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	ul li{
+		display:normal;
+	}
+	header .nav{
+		float:left;
+		padding:0px;
+		margin:0px;
+	}
+	header .nav a{
+		padding:0px 100px;
+		float:right;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	header p{
+		display:none;
+	}
+	header .logo{
+		float:left;
+		margin-left:30%;
+	}
+	header .nav{
+		width:100%;
+		float:left;
+	}
+	header .nav a{
+		float:left;
+		margin:10px 10px;
+	}
+}
+
+/*----------- CONTENT -----------*/
+.content{
+	background:blue;
+	max-width:100%;
+}
+.content .hero img{
+	width:100%;
+}
+
+.content h2{
+}
+
+.content .boxes{
+	text-align:center;
+	display:block;
+	float:left;
+	margin: 0 1.5%;
+	width:29%;
+	border:1px solid black;
+}
+.content .boxes img{
+	width:100%;
+	max-width:200px;
+	margin:1px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.content .boxes{
+		float:none;
+		margin:10px auto;
+		padding:0 auto;
+		width: 80%;
+	}
+	.content .boxes img{
+		max-width:100%;
+	}
+}
+
+
+
+/*----------- FOOTER -----------*/
+footer{
+	background-color:green;
+	margin:10px;
+	padding:10px;
+}
