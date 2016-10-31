@@ -1,0 +1,36 @@
+*, body{
+	margin:0px;
+	padding:0px;
+	background-color:yellow;
+}
+
+
+header{
+	border:5px solid #000;
+	height:50px;
+	width:100%;
+}
+
+
+.col{
+	float:left;
+	width:28%;
+	margin-right:3%;
+	border:5px solid #000;
+	height:50px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:1.5%;
+}
+
+.col.three{
+	margin-right:0px;
+}
+
+
+footer{
+	clear:both;
+	width:100%;
+	border:5px solid black;
+	height:50px;
+}
