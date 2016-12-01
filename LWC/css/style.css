@@ -970,8 +970,33 @@ footer img{
 }
 
 @media screen and (max-width: 400px) {
-	header li, .dropbtn{
-		margin-left:0;
+	.navsmall header li, .dropbtn{
+		margin-left: 0px;
+	}
+	header li a, .dropbtn{
+		padding: 0px;
+	}
+	.dropbtn{
+		z-index:9999;
+	}
+	.dropdown{
+		margin-left:5px;
+	}
+	header li a{
+		padding: 0px;
+	}
+	header h4{
+		padding:0px;
+		text-align:right;
+	}
+	.requestaquote{
+		margin-top:0px;
+	}
+	.requestaquote img{
+		margin-left:4px;
+	}
+	.phone{
+		width:150px;
 	}
 }
 
