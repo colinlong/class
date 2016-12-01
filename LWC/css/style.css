@@ -968,6 +968,13 @@ footer img{
 		display:none;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	header li, .dropbtn{
+		margin-left:0;
+	}
+}
+
 /* request */
 
 
